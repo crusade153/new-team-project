@@ -71,7 +71,7 @@ export default function Dashboard({ data, onRefresh }) {
     <div className="max-w-[1600px] mx-auto space-y-6 pb-10">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">안녕하세요, 원가팀! 👋</h1>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">안녕하세요, 영업지원팀! 👋</h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">오늘의 업무 현황과 주요 이슈를 확인하세요.</p>
         </div>
         <button onClick={onRefresh} className="btn-secondary">

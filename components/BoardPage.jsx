@@ -16,7 +16,7 @@ export default function BoardPage({ posts, currentUser, onRefresh }) {
   const [commentInput, setCommentInput] = useState('')
 
   // 관리자 권한 확인 (유경덕 ID 확인)
-  const isAdmin = currentUser?.아이디 === 'crusade153'
+  const isAdmin = currentUser?.아이디 === 'jung2358'
 
   useEffect(() => {
     if (selectedPost) {

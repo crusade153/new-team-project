@@ -22,7 +22,7 @@ export default function LandingPage() {
             <div className="w-8 h-8 bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-indigo-500/20">
               <span>N</span>
             </div>
-            <span className="tracking-tight">Harim Nexus</span>
+            <span className="tracking-tight">Cams Nexus</span>
           </div>
           
           <div className="flex items-center gap-3">
@@ -59,7 +59,7 @@ export default function LandingPage() {
           </h1>
           
           <p className="text-lg text-slate-600 dark:text-slate-400 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            원가팀을 위해 설계된 직관적인 워크스페이스.<br/>
+            영업지원팀을 위해 설계된 직관적인 워크스페이스.<br/>
             복잡한 절차 없이, 지금 바로 업무의 본질에 집중하세요.
           </p>
           
@@ -102,7 +102,7 @@ export default function LandingPage() {
 
       {/* 3. 푸터 (최하단 고정) */}
       <footer className="flex-none py-6 text-center text-xs text-slate-400 dark:text-slate-600">
-        © 2026 Harim Nexus. Designed for Won-ga Team.
+        © 2026 Cams Nexus. Designed for Won-ga Team.
       </footer>
     </div>
   )

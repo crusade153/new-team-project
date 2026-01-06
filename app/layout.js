@@ -2,7 +2,7 @@ import './globals.css'
 import { Toaster } from 'react-hot-toast'
 
 export const metadata = {
-  title: 'Harim Nexus | Workspace',
+  title: 'Cams Nexus | Workspace',
   description: '팀 협업 워크스페이스',
 }
 

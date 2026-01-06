@@ -12,7 +12,7 @@ export default function ArchivePage({ archives = [], currentUser, onRefresh }) {
   const [newArchive, setNewArchive] = useState({ 카테고리: '매뉴얼', 제목: '', 링크: '', 내용: '' })
   const [commentInput, setCommentInput] = useState('')
   const categories = ['매뉴얼', '온보딩', '트러블슈팅', '기타']
-  const isAdmin = currentUser?.아이디 === 'crusade153'
+  const isAdmin = currentUser?.아이디 === 'jung2358'
 
   useEffect(() => {
     if (archives.length > 0 && !selectedDoc) {

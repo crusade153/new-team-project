@@ -21,7 +21,7 @@ export default function SignupPage() {
   })
 
   // 관리자 ID (이 아이디만 자동 승인)
-  const ADMIN_ID = 'crusade153'
+  const ADMIN_ID = 'jung2358'
 
   const handleSignup = async (e) => {
     e.preventDefault()

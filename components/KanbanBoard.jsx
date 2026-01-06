@@ -156,7 +156,7 @@ export default function KanbanBoard({ tasks: initialTasks, archives = [], curren
 
   const [onlyMyTasks, setOnlyMyTasks] = useState(false)
   const currentUserName = currentUser?.이름 || '게스트'
-  const isAdmin = currentUser?.아이디 === 'crusade153'
+  const isAdmin = currentUser?.아이디 === 'jung2358'
   
   const columns = ['대기', '진행중', '완료', '중단']
 

@@ -16,7 +16,7 @@ const calculateWorkload = (member, tasks, projects) => {
 
 export default function MembersPage({ members, tasks, projects, onRefresh }) {
   // 관리자 ID 정의
-  const SYS_ADMIN_ID = 'crusade153'
+  const SYS_ADMIN_ID = 'jung2358'
 
   return (
     <div className="space-y-6">
@@ -27,7 +27,7 @@ export default function MembersPage({ members, tasks, projects, onRefresh }) {
             팀원 관리 <span className="text-sm font-medium text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-full">{members?.length || 0}명</span>
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm mt-1">
-            원가팀 멤버 현황 및 업무 부하를 모니터링합니다. (가입순 정렬)
+            영업지원팀 멤버 현황 및 업무 부하를 모니터링합니다. (가입순 정렬)
           </p>
         </div>
         <button onClick={onRefresh} className="btn-secondary">

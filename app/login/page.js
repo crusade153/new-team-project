@@ -16,7 +16,7 @@ export default function LoginPage() {
     setLoading(true)
 
     try {
-      const systemEmail = `${loginId}@cams-nexus.co.kr`
+      const systemEmail = `${loginId}@cams.co.kr`
 
       const { data, error } = await supabase.auth.signInWithPassword({
         email: systemEmail,
@@ -107,7 +107,7 @@ export default function LoginPage() {
         <div className="mt-6 text-center text-sm text-slate-500">
           아직 계정이 없으신가요?{' '}
           <Link href="/signup" className="text-indigo-600 font-bold hover:underline">
-            회원가입 신청
+            회영업지원입 신청
           </Link>
         </div>
       </div>

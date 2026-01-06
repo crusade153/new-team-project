@@ -60,9 +60,9 @@ export default function Header() {
         <div className="flex items-center justify-between h-full max-w-[1600px] mx-auto">
           
           <div className="hidden md:flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-            <span className="font-medium text-slate-800 dark:text-slate-200">Harim Foods</span>
+            <span className="font-medium text-slate-800 dark:text-slate-200">Cams Foods</span>
             <span className="text-slate-300 dark:text-slate-600">/</span>
-            <span>원가팀</span>
+            <span>영업지원팀</span>
           </div>
 
           <div className="flex-1 max-w-md mx-4 lg:mx-8">
