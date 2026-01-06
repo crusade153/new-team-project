@@ -42,7 +42,7 @@ export default function SignupPage() {
       }
 
       // 2. Supabase Auth 가입
-      const systemEmail = `${formData.loginId}@cams-nexus.co.kr`
+      const systemEmail = `${formData.loginId}@cams.co.kr`
 
       const { data: authData, error: authError } = await supabase.auth.signUp({
         email: systemEmail,
