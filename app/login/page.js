@@ -16,7 +16,7 @@ export default function LoginPage() {
     setLoading(true)
 
     try {
-      const systemEmail = `${loginId}@harim-nexus.com`
+      const systemEmail = `${loginId}@cams-nexus.co.kr`
 
       const { data, error } = await supabase.auth.signInWithPassword({
         email: systemEmail,
